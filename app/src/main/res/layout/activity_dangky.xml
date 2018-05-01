@@ -10,19 +10,97 @@
     android:paddingLeft="16dp"
     tools:context="com.example.namlxuit.orderfood.DangkyActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/lnBlockDangKy"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/size10dp"
+        android:padding="@dimen/size10dp"
+        android:text="@string/dangKy"
+        android:textSize="@dimen/size30sp"
+        android:textStyle="bold" />
+
     <LinearLayout
         android:id="@+id/lnBlockDangKy"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        >
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size10dp"
             android:background="@color/colorWhite"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="@dimen/size10dp"
             android:hint="@string/tenDangNhap"
-            />
+            android:padding="@dimen/size10dp"
+            android:textColorHint="@color/colorGray" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size10dp"
+            android:background="@color/colorWhite"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="@dimen/size10dp"
+            android:hint="@string/matKhau"
+            android:padding="@dimen/size10dp"
+            android:password="true"
+            android:textColorHint="@color/colorGray" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nam" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nữ" />
+
+        </RadioGroup>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size10dp"
+            android:background="@color/colorWhite"
+            android:drawableLeft="@android:drawable/ic_menu_my_calendar"
+            android:drawablePadding="@dimen/size10dp"
+            android:hint="@string/ngaySinh"
+            android:padding="@dimen/size10dp"
+            android:textColorHint="@color/colorGray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/size10dp"
+                android:layout_weight="1"
+                android:padding="@dimen/size10dp"
+                android:text="@string/dangKy" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/size10dp"
+                android:layout_weight="1"
+                android:padding="@dimen/size10dp"
+                android:text="@string/thoat" />
+        </LinearLayout>
     </LinearLayout>
 
 
