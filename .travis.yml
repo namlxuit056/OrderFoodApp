@@ -28,4 +28,4 @@ cache:
     - $HOME/.android/build-cacåhe
 
 script:
-  - gradle build Gradle
+  - ./gradlew build Gradle
