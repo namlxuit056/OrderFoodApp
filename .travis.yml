@@ -23,7 +23,8 @@ android:
     - sys-img-armeabi-v7a-android-26
     
 # Emulator Management: Create, Start and Wait
-
+script:
+- "./gradlew clean build connectedCheck -PdisablePreDex --stacktrace"
 cache:
   directories:
     - $HOME/.gradle/caches/
