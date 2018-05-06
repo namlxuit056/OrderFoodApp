@@ -1,5 +1,30 @@
 language: android
 jdk: oraclejdk8
+<<<<<<< Updated upstream
+env:
+ global:
+    - ANDROID_API_LEVEL=26
+    - ANDROID_BUILD_TOOLS_VERSION=26.0.2
+=======
+<<<<<<< HEAD
+>>>>>>> Stashed changes
+android:
+ licenses:
+    - 'android-sdk-preview-license-.+'
+    - 'android-sdk-license-.+'
+    - 'google-gdk-license-.+'
+ components:
+    - tools
+    - platform-tools
+    # The BuildTools version used by your project
+    - build-tools-$ANDROID_BUILD_TOOLS_VERSION
+    # The SDK version used to compile your project
+<<<<<<< Updated upstream
+    - android-$ANDROID_API_LEVEL
+=======
+    - android-26
+
+=======
 env:
  global:
     - ANDROID_API_LEVEL=26
@@ -16,11 +41,30 @@ android:
     - build-tools-$ANDROID_BUILD_TOOLS_VERSION
     # The SDK version used to compile your project
     - android-$ANDROID_API_LEVEL
+>>>>>>> huyuit
+>>>>>>> Stashed changes
     # Additional components
     - extra-google-google_play_services
     - extra-google-m2repository
     - extra-android-m2repository
     - addon-google_apis-google-26
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+
+    # Specify at least one system image,
+    # if you need to run emulator(s) during your tests
+    - sys-img-armeabi-v7a-android-26
+    - sys-img-armeabi-v7a-android-17
+   licenses:
+    - 'android-sdk-preview-license-52d11cd2'
+    - 'android-sdk-license-.+'
+    - 'google-gdk-license-.+'
+   # Emulator Management: Create, Start and Wait
+
+  script: ./gradlew build connectedCheck
+=======
+>>>>>>> Stashed changes
 before_script:
     # Prepare pre-accepted licenses to not be promted at installation
     - mkdir "$ANDROID_HOME/licenses" || true
@@ -28,4 +72,9 @@ before_script:
     - echo -e "\n84831b9409646a918e30573bab4c9c91346d8abd" > "$ANDROID_HOME/licenses/android-sdk-preview-license"
     - chmod +x gradlew
 script:
+<<<<<<< Updated upstream
     - ./gradlew build check
+=======
+    - ./gradlew build check
+>>>>>>> huyuit
+>>>>>>> Stashed changes

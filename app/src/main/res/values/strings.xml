@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">OrderFood</string>
+    <string name="tenDangNhap">Tên Đăng Nhập</string>
+    <string name="matKhau">Mật Khẩu</string>
+    <string name="ngaySinh">Ngày Sinh</string>
+    <string name="dangKy">Đăng Ký</string>
+    <string name="thoat">Thoát</string>
 </resources>
