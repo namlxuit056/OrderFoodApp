@@ -12,7 +12,7 @@ public class DangkyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dangky);
 
-        CreateDatabase createDatabase = new CreateDatabase(this);
-        createDatabase.open();
+        //CreateDatabase createDatabase = new CreateDatabase(this);
+        //createDatabase.open();
     }
 }
