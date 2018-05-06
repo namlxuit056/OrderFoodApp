@@ -23,6 +23,8 @@ android:
     - sys-img-armeabi-v7a-android-26
     
 # Emulator Management: Create, Start and Wait
+before_install:
+ - chmod +x gradlew
 script:
    - ./gradlew build connectedCheck
 cache:
