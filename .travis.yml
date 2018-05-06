@@ -24,7 +24,7 @@ android:
     
 # Emulator Management: Create, Start and Wait
 script:
-- "./gradlew clean build connectedCheck -PdisablePreDex --stacktrace"
+- "./gradlew build app"
 cache:
   directories:
     - $HOME/.gradle/caches/
