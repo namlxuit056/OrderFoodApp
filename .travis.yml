@@ -27,4 +27,4 @@ cache:
     - $HOME/.gradle/wrapper/
     - $HOME/.android/build-cacåhe
 script:
-  - ./gradlew build android-profile
+  - ./gradlew build
