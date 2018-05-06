@@ -26,4 +26,4 @@ cache:
     - $HOME/.gradle/wrapper/
     - $HOME/.android/build-cacåhe
 script:
-- ./gradlew clean build
+  -./gradlew clean build
