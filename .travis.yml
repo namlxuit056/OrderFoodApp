@@ -1,30 +1,18 @@
-sudo: false
+
 
 language: android
-jdk: oraclejdk8
 
 android:
   components:
-  - platform-tools
-  - tools
-  - build-tools-26.0.0
+  - build-tools-26
   - android-26
 
-before_install:
-- chmod +x gradlew
+  - extra-google-m2repository
+  - extra-android-m2repository
+   - tools
+  - platform-tools
+
 
 script:
-- "./gradlew clean build connectedOderFoodApp -PdisablePreDex --stacktrace"
+- ./gradlew test
 
-notifications:
-  email: true
-
-before_cache:
-- rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
-
-cache:
-  directories:
-  - "$HOME/.m2"
-  - "$HOME/.gradle"
-  - "$HOME/.gradle/caches/"
-  - "$HOME/.gradle/wrapper/"
