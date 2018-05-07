@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity android:name=".TrangChuActivity">
+=======
+        <activity android:name=".DangkyActivity">
+>>>>>>> e0eb4ed416e77de1d0e4786185e157b410910161
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
