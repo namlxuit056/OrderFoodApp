@@ -3,7 +3,6 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-<<<<<<< HEAD
     <color name="colorWhite">#FFF</color>
     <color name="colorGray">#CCC</color>
     <color name="colorOrganButton">#EF6C00</color>
@@ -12,10 +11,5 @@
     <color name="colorRed">#e40404</color>
     <color name="backgroundToolbar">#d77a09</color>
     <color name="backgroundtransparentGreen">#6643A047</color>
-=======
-    <color name="colorGreen">#006f68</color>
-    <color name="colorWhite">#fff</color>
-    <color name="colorGray">#ccc</color>
->>>>>>> e0eb4ed416e77de1d0e4786185e157b410910161
     <color name="colorBlack">#000</color>
 </resources>

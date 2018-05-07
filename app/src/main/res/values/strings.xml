@@ -1,5 +1,4 @@
 <resources>
-<<<<<<< HEAD
     <string name="app_name">AppOrderFood</string>
     <string name="tendangnhap">Tên đăng nhập</string>
     <string name="nhapmatkhau">Mật khẩu</string>
@@ -42,12 +41,5 @@
     <string name="suathanhcong">Sữa thàng công !</string>
     <string name="themnhanvien">Thêm nhân viên !</string>
     <string name="capnhatnhanvien">Cập nhật nhân viên</string>
-=======
-    <string name="app_name">OrderFood</string>
-    <string name="tenDangNhap">Tên Đăng Nhập</string>
-    <string name="matKhau">Mật Khẩu</string>
-    <string name="ngaySinh">Ngày Sinh</string>
-    <string name="dangKy">Đăng Ký</string>
-    <string name="thoat">Thoát</string>
->>>>>>> e0eb4ed416e77de1d0e4786185e157b410910161
+
 </resources>
