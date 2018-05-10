@@ -1,7 +1,9 @@
 package com.example.namlxuit.orderfood;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
@@ -13,6 +15,7 @@ import com.example.namlxuit.orderfood.CustomAdapter.AdapterHienThiThanhToan;
 import com.example.namlxuit.orderfood.DAO.BanAnDAO;
 import com.example.namlxuit.orderfood.DAO.GoiMonDAO;
 import com.example.namlxuit.orderfood.DTO.ThanhToanDTO;
+import com.example.namlxuit.orderfood.FragmentApp.HienThiBanAnFagment;
 
 import java.util.List;
 
@@ -87,15 +90,13 @@ public class ThanhToanActivity extends AppCompatActivity implements View.OnClick
                 }else{
                     Toast.makeText(ThanhToanActivity.this,getResources().getString(R.string.loi), Toast.LENGTH_SHORT);
                 }
-                ;break;
+                break;
 
             case R.id.btnThoatThanhToan:
-//                FragmentTransaction transaction = fragmentManager.beginTransaction();
-//                HienThiBanAnFagment hienThiBanAnFagment = new HienThiBanAnFagment();
-//                transaction.replace(R.id.content,hienThiBanAnFagment);
-//                transaction.commit();
-                finish();
-                ;break;
+                Intent iTrangChu = new Intent(ThanhToanActivity.this,TrangChuActivity.class);
+                startActivity(iTrangChu);
+                overridePendingTransition(R.anim.hieuung_activity_vao,R.anim.hieuung_activity_ra);
+                break;
         }
     }
 }
