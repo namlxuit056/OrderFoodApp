@@ -12,7 +12,7 @@ import android.widget.Toast;
 import com.example.namlxuit.orderfood.DAO.BanAnDAO;
 
 /**
- * Created by Nhox on 4/11/2016.
+ * Created by namlxuit
  */
 public class SuaBanAnActivity extends AppCompatActivity implements View.OnClickListener {
 
