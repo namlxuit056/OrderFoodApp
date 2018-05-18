@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/OrderFoodApp.iml" filepath="$PROJECT_DIR$/OrderFoodApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OrderFoodApp.iml" filepath="$PROJECT_DIR$/OrderFoodApp.iml" />
       <module fileurl="file://F:\Work\OrderFoodApp\namlx2\OrderFoodApp\.idea\OrderFoodApp.iml" filepath="F:\Work\OrderFoodApp\namlx2\OrderFoodApp\.idea\OrderFoodApp.iml" />
       <module fileurl="file://D:\Android\OrderFoodApp\OrderFoodApp.iml" filepath="D:\Android\OrderFoodApp\OrderFoodApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

@@ -84,12 +84,13 @@ public class CreateDatabase extends SQLiteOpenHelper {
         sqLiteDatabase.execSQL(tbCHITIETGOIMON);
     }
 
+
     @Override
-    public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
+    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 
     }
 
-    public SQLiteDatabase open(){
+    public SQLiteDatabase open() {
         return this.getWritableDatabase();
     }
 }
