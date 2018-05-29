@@ -25,3 +25,14 @@ before_script:
 - chmod +x gradlew
 script:
 - "./gradlew build check"
+before_install:
+- openssl aes-256-cbc -K $encrypted_53560a4f2f5c_key -iv $encrypted_53560a4f2f5c_iv
+  -in keystore.jks.enc -out keystore.jks -d
+deploy:
+  provider: releases
+  api_key:
+    secure: GIY/U09PVXi8B4FF5UEDFndh5ykNmq1LOfhw6wwrOqc7ZKropf8RlT3J5dKVY0gSiQCKmPpmq/A7aZGVs4x4Jn1SHrLNbY9LNsp79on9rbJK5WF4dTEsUhdHFCFUIwvEwBka2QFje7f4cxuBjOyJOHK+Fm33drYuK4gHo7zWbgpyi4I9DMjKlqNUCjnixV0ZZ10zBlBo+9GzYZLCGsFrqt8fkg7pYgdADAqk5UoNTClVk078U0CVyHedb77HW7vepj6cht5ypBiiK9cNZF2UtoQUppYM4qBqKhaQhJRzkTmRwyf0UNlBkgylKLOP+6r0a0ra/DoYzVLoD5CnYVERZPg3jPiT8Yol86whgr/d5vs8NTyOPNeBUq5Q9JKcAliy8W4Re7KRzsW00ssztKoy/p8gVzcGLFqGYArqXWAvVcPFrCMIrAEj3jFp2/j5AclCDCdw09mz+qCWj6Mw8U5Ya4SX4ENNWYVmR+WJGX2QLL5tObIF34cF/bo2fNGpBk21x6f3b7sCKtU2aMBKNA7IKcB+skhkXYsyD0TFb4O2/E41Yz1RdZF/nxYWwFp2S+RytTs6DvEXWduSY3sHDVRWBFKGiZ5BGeT5EhywlDs4RjXmMWhgvybKW3cbMuMq84tx5ud8pg1IAIfpLQCXMYOxYZWDYGa0epmHcqqtgmbwdOQ=
+  file: app/build/outputs/apk/release/app-release.apk
+  on:
+    repo: namlxuit056/OrderFoodApp
+    tags: true
