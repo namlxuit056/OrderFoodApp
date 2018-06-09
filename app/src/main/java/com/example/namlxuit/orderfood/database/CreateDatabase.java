@@ -1,7 +1,4 @@
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 package com.example.namlxuit.orderfood.database;
 
 import android.content.Context;
@@ -106,8 +103,4 @@ public class CreateDatabase extends SQLiteOpenHelper {
     public SQLiteDatabase open() {
         return this.getWritableDatabase();
     }
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes
