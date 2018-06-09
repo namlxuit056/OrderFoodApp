@@ -61,7 +61,7 @@ public class DangkyActivity extends AppCompatActivity implements View.OnClickLis
 
         nhanVienDAO = new NhanVienDAO(this);
         quyenDAO = new QuyenDAO(this);
-
+        //lay danh sach quyen
         quyenDTOList = quyenDAO.LayDanhSachQuyen();
         dataAdapter = new ArrayList<String>();
 

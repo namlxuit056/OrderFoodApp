@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Nhox on 4/18/2016.
+ * namlxuit
  */
 public class QuyenDAO {
 
