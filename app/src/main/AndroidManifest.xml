@@ -19,6 +19,13 @@
         <activity android:name=".TrangChuActivity"></activity>
         <activity android:name=".ThanhToanActivity"></activity>
         <activity android:name=".SoLuongActivity"></activity>
+        <activity android:name=".DangkyActivity"></activity>
+        <activity android:name=".ThemBanAnActivity"></activity>
+        <activity android:name=".ThemLoaiThucDonActivity"></activity>
+        <activity android:name=".ThemThucDonActivity"></activity>
+        <activity android:name=".SuaBanAnActivity"></activity>
+
+
     </application>
 
 </manifest>
