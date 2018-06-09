@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package com.example.namlxuit.orderfood.database;
 
 import android.content.Context;
@@ -96,6 +97,9 @@ public class CreateDatabase extends SQLiteOpenHelper {
     }
 }
 =======
+=======
+
+>>>>>>> master
 package com.example.namlxuit.orderfood.database;
 
 import android.content.Context;
@@ -200,5 +204,9 @@ public class CreateDatabase extends SQLiteOpenHelper {
     public SQLiteDatabase open() {
         return this.getWritableDatabase();
     }
+<<<<<<< HEAD
+}
+>>>>>>> master
+=======
 }
 >>>>>>> master
