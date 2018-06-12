@@ -35,8 +35,8 @@ public class TrangChuActivity extends AppCompatActivity implements NavigationVie
         navigationView = (NavigationView) findViewById(R.id.navigationview_trangchu);
         toolbar = (Toolbar) findViewById(R.id.toolbar);
 
-        View view = navigationView.inflateHeaderView(R.layout.layout_header_navigation_trangchu);
-        txtTenNhanVien_Navigation = (TextView) view.findViewById(R.id.txtTenNhanVien_Navigation);
+        //View view = navigationView.inflateHeaderView(R.layout.layout_header_navigation_trangchu);
+        //txtTenNhanVien_Navigation = (TextView) view.findViewById(R.id.txtTenNhanVien_Navigation);
 
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -60,8 +60,8 @@ public class TrangChuActivity extends AppCompatActivity implements NavigationVie
        navigationView.setNavigationItemSelectedListener(this);
 
         Intent intent = getIntent();
-        String tendn = intent.getStringExtra("tendn");
-        txtTenNhanVien_Navigation.setText(tendn);
+       // String tendn = intent.getStringExtra("tendn");
+        //txtTenNhanVien_Navigation.setText(tendn);
 
        fragmentManager = getSupportFragmentManager();
         FragmentTransaction tranHienThiBanAn = fragmentManager.beginTransaction();

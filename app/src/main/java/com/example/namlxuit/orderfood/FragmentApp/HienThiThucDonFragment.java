@@ -27,7 +27,7 @@ import com.example.namlxuit.orderfood.TrangChuActivity;
 import java.util.List;
 
 /**
- * Created by namlxuit
+ * Created by Nhox on 4/2/2016.
  */
 public class HienThiThucDonFragment extends Fragment {
 

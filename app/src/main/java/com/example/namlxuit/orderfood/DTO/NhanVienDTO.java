@@ -1,7 +1,7 @@
 package com.example.namlxuit.orderfood.DTO;
 
 /**
- * namlxuit
+ * Created by Nhox on 3/19/2016.
  */
 public class NhanVienDTO {
     int MANV;

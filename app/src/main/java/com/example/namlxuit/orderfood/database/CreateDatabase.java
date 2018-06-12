@@ -1,4 +1,3 @@
-
 package com.example.namlxuit.orderfood.database;
 
 import android.content.Context;
@@ -104,4 +103,3 @@ public class CreateDatabase extends SQLiteOpenHelper {
         return this.getWritableDatabase();
     }
 }
-
