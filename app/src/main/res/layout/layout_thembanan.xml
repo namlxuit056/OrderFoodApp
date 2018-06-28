@@ -12,7 +12,7 @@
         android:background="@color/colorWhite"
         android:padding="@dimen/size10dp"
         android:layout_margin="@dimen/size10dp"
-        android:textColor="@color/colorGray"
+        android:textColor="@color/colorBlack"
         android:hint="@string/tenbanan"
         android:textColorHint="@color/colorGray"
         />
