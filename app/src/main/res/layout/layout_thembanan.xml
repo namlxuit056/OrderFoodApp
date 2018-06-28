@@ -5,6 +5,14 @@
 
     >
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/backgroundToolbar">
+
+    </android.support.v7.widget.Toolbar>
+
     <EditText
         android:id="@+id/edThemTenBanAn"
         android:layout_width="match_parent"
