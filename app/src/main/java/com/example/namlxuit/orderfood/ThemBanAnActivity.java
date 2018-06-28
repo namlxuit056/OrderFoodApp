@@ -2,11 +2,15 @@ package com.example.namlxuit.orderfood;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
 
 import com.example.namlxuit.orderfood.DAO.BanAnDAO;
 
@@ -18,7 +22,9 @@ public class ThemBanAnActivity extends AppCompatActivity implements View.OnClick
     EditText edTenThemBanAn;
     Button btnDongYThemBanAn;
     BanAnDAO banAnDAO;
+    Toolbar toolbar;
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,7 +32,8 @@ public class ThemBanAnActivity extends AppCompatActivity implements View.OnClick
 
         edTenThemBanAn = (EditText) findViewById(R.id.edThemTenBanAn);
         btnDongYThemBanAn = (Button) findViewById(R.id.btnDongYThemBanAn);
-
+        toolbar = findViewById(R.id.toolbar2);
+        toolbar.setTitle("Thêm Bàn Ăn");
         banAnDAO = new BanAnDAO(this);
         btnDongYThemBanAn.setOnClickListener(this);
 
