@@ -2,7 +2,6 @@
 ./source/.gradle
 ./source/local.properties
 ./source/.idea
-./source/.idea
 ./source.DS_Store
 ./source/build
 ./source/captures
