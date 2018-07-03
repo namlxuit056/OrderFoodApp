@@ -4,6 +4,10 @@
 * Trương Huy Hoàng
 
 # Progress
-* Gọi món 
-* Thanh toán
+* Thêm bàn ăn
+* Thêm thực đơn
+* Add menu và thêm bàn ăn
+* Trang chủ
+* Thêm thực đơn
+* Xây dựng hệ thống CI/CD với travis
 
